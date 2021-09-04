@@ -1,0 +1,2 @@
+ssh -l jon ec2-user@ec2-3-87-195-200.compute-1.amazonaws.com
+

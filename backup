@@ -1,0 +1,16 @@
+
+ find ~/websites -type f -name '*.sql' -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/tmp -type f -name '*.sql' -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/websites -type f -name ‘*.out’ -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/scripts -type f -name '*.sql' -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/websites -type f -name '*.out' -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/Desktop -type f -name '*.sql' -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/Desktop -type f -name '*.tar' -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/Desktop -type f -name '*.gz' -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/websites -type f -name '*.gz' -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/websites -type f -name '*.tar' -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/ -type f -name '*.sql' -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/Documents -type f -name ‘*.mp4’ -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/Documents -type f -name ‘*.m4a’ -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/Documents -type f -name ‘*.zoom’ -exec mv {} /Volumes/Storage/Backups/ \;
+ find ~/Documents -type f -name ‘*.avi’ -exec mv {} /Volumes/Storage/Backups/ \;

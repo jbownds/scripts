@@ -1,0 +1,2 @@
+ warden svc down && warden svc up
+ warden env down && warden env up

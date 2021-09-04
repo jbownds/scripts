@@ -1,0 +1,1 @@
+figlet -f ~/figlet-fonts/cosmike.flf "$1" | lolcat -a 

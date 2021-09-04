@@ -1,0 +1,12 @@
+echo link dem scripts | cowsay -f eyes | toilet --metal -f term | lolcat
+for FILE in *; 
+do 
+	echo "Linking script $FILE to /usr/local/bin/$FILE"; 
+	sudo rm -f /usr/local/bin/$FILE
+	sudo chmod 777 /Users/jon/scripts/$FILE
+	sudo touch /Users/jon/scripts/txt/$file.txt
+	sudo ln -s /Users/jon/scripts/$FILE /usr/local/bin/$FILE
+	sudo chmod 777 /usr/local/bin/$FILE
+done
+sudo rm -f /usr/local/bin/link_scripts_in_directory.sh
+echo linking finished!  | cowsay  | toilet --metal -f term

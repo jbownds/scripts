@@ -1,0 +1,29 @@
+#!/bin/bash
+#Get the date
+today=`date '+%Y_%m_%d__%H_%M_%S'`;
+
+#Brew
+brew list >  "brew."$today
+
+#zsh
+echo '#ZSH Stuff' >> "zshrc."$today
+cat ~/.zshrc >> "zshrc."$today
+cat ~/.zsh/aliases.zsh >> "zshrc."$today
+#antigen
+#cat 'antigen' >> $today".zshrc"
+#antigen list >> $today".zshrc"
+#starship
+starship print-config | more >>  "starship."$today
+#hyper
+hyper list >> "hyper."$today
+#fisher
+#fish
+#fisher update
+#fisher list >> $today".fisher"
+#history
+history >> "history."$today
+#aliases
+alias >> "alias."$today
+cat ~/.zsh/aliases.zsh >> "alias."$today
+mv *.$today ~/scripts/script_backups/
+

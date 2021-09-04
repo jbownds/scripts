@@ -1,0 +1,10 @@
+ find ~/websites -type f -name '*.sql' -exec mv {} /Volumes/Storage/DatabaseBackups \;
+ find ~/tmp -type f -name '*.sql' -exec mv {} /Volumes/Storage/DatabaseBackups \;
+ find ~/websites -type f -name ‘*.out’ -exec mv {} /Volumes/Storage/DatabaseBackups \;
+ find ~/scripts -type f -name '*.sql' -exec mv {} /Volumes/Storage/DatabaseBackups \;
+ find ~/websites -type f -name '*.out' -exec mv {} /Volumes/Storage/DatabaseBackups \;
+ find ~/Desktop -type f -name '*.sql' -exec mv {} /Volumes/Storage/DatabaseBackups \;
+ find ~/Desktop -type f -name '*.tar' -exec mv {} /Volumes/Storage/DatabaseBackups \;
+ find ~/Desktop -type f -name '*.gz' -exec mv {} /Volumes/Storage/DatabaseBackups \;
+ find ~/websites -type f -name '*.gz' -exec mv {} /Volumes/Storage/DatabaseBackups \;
+ find ~/websites -type f -name '*.tar' -exec mv {} /Volumes/Storage/DatabaseBackups \;

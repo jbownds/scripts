@@ -1,0 +1,5 @@
+mv /Users/jon/Desktop/*.png /Volumes/Storage/Screenshots/
+mv /Users/jon/Desktop/*.html /Volumes/Storage/Screenshots/html/
+mv /Users/jon/Desktop/*.jpg /Volumes/Storage/Screenshots/
+mv /Users/jon/Desktop/*.gif /Volumes/Storage/Screenshots/
+mv /Users/jon/Desktop/*.dmg /Volumes/Storage/Screenshots/dmg/

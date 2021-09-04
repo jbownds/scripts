@@ -1,0 +1,6 @@
+tmux new-session \; \
+send-keys 'htop' C-m \; \
+split-window -v \; \
+send-keys 'lazydocker' C-m \; \
+split-window -h \; \
+send-keys 'top' C-m \;

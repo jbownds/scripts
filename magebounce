@@ -1,0 +1,7 @@
+warden env exec php-fpm composer update
+warden env exec php-fpm composer install
+warden env exec php-fpm bin/magento setup:install
+warden env exec php-fpm bin/magento setup:di:compile
+warden env exec php-fpm bin/magento setup:static-content:deploy -f
+warden env exec php-fpm bin/magento cache:flush
+warden env exec php-fpm bin/magento indexer:reindex

@@ -1,0 +1,2 @@
+today=$(date +"%Y-%m-%d")
+tar -czvf /Volumes/Storage/WebsitesBackup/websitebackup${today}.tar /Users/jbownds/websites
